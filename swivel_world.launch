@@ -1,0 +1,21 @@
+<launch>
+
+    <!-- 启动gazebo world为默认空世界 -->
+    <include file="$(find hector_gazebo_worlds)/launch/start.launch"/>
+
+  <!-- Load the URDF into the ROS Parameter Server -->
+  <param name="robot_description"
+         command="$(find xacro)/xacro.py '$(find swivel_description)/model/swivel_test.urdf.xacro'" />
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-urdf -model rrbot -param robot_description"/>
+ 
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find swivel_description)/config/swivel_gimbal_control.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/swivel" args="swiveljoint_state_controller swiveljoint1_position_controller --shutdown-timeout 3"/>
+
+</launch>

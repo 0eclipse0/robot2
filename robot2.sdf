@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.7">
+	<model name="robot">
+		<link name="link11">
+			<pose>6.55 5.079 3.0175999735764676 3.141592653589793 0.23561944901923448 0</pose>
+			<collision name="link11colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link11visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link12">
+			<pose>6.55 5.079 5.735199947152935 0 -0.23561944901923448 0</pose>
+			<collision name="link12colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link12visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link13">
+			<pose>6.55 5.079 8.452799920729404 3.141592653589793 0.23561944901923448 0</pose>
+			<collision name="link13colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link13visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link1_down">
+			<pose>6.55 5.079 0.3 0 2.9059732045705586 0</pose>
+			<collision name="link1_downcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link1_downvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link1_up">
+			<pose>6.55 5.079 11.170399894305872 0 2.9059732045705586 0</pose>
+			<collision name="link1_upcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link1_upvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link21">
+			<pose>-7.6735430258211625 3.132966394788075 3.0175999735764676 3.141592653589793 0.23561944901923448 2.0943951023931953</pose>
+			<collision name="link21colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link21visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link22">
+			<pose>-7.6735430258211625 3.132966394788075 5.735199947152935 0 -0.23561944901923448 2.0943951023931953</pose>
+			<collision name="link22colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link22visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link23">
+			<pose>-7.6735430258211625 3.132966394788075 8.452799920729404 3.141592653589793 0.23561944901923448 2.0943951023931953</pose>
+			<collision name="link23colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link23visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link2_down">
+			<pose>-7.6735430258211625 3.132966394788075 0.3 0 2.9059732045705586 2.0943951023931953</pose>
+			<collision name="link2_downcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link2_downvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link2_up">
+			<pose>-7.6735430258211625 3.132966394788075 11.170399894305872 0 2.9059732045705586 2.0943951023931953</pose>
+			<collision name="link2_upcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link2_upvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link31">
+			<pose>1.1235430258211592 -8.211966394788075 3.0175999735764676 3.141592653589793 0.23561944901923448 4.1887902047863905</pose>
+			<collision name="link31colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link31visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link32">
+			<pose>1.1235430258211592 -8.211966394788075 5.735199947152935 0 -0.23561944901923448 4.1887902047863905</pose>
+			<collision name="link32colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link32visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link33">
+			<pose>1.1235430258211592 -8.211966394788075 8.452799920729404 3.141592653589793 0.23561944901923448 4.1887902047863905</pose>
+			<collision name="link33colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link33visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link3_down">
+			<pose>1.1235430258211592 -8.211966394788075 0.3 0 2.9059732045705586 4.1887902047863905</pose>
+			<collision name="link3_downcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link3_downvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link3_up">
+			<pose>1.1235430258211592 -8.211966394788075 11.170399894305872 0 2.9059732045705586 4.1887902047863905</pose>
+			<collision name="link3_upcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link3_upvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link41">
+			<pose>-6.55 5.079 3.0175999735764676 3.141592653589793 0.23561944901923448 0</pose>
+			<collision name="link41colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link41visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link42">
+			<pose>-6.55 5.079 5.735199947152935 0 -0.23561944901923448 0</pose>
+			<collision name="link42colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link42visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link43">
+			<pose>-6.55 5.079 8.452799920729404 3.141592653589793 0.23561944901923448 0</pose>
+			<collision name="link43colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link43visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link4_down">
+			<pose>-6.55 5.079 0.3 0 2.9059732045705586 0</pose>
+			<collision name="link4_downcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link4_downvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link4_up">
+			<pose>-6.55 5.079 11.170399894305872 0 2.9059732045705586 0</pose>
+			<collision name="link4_upcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link4_upvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link51">
+			<pose>-1.1235430258211654 -8.211966394788071 3.0175999735764676 3.141592653589793 0.23561944901923448 2.0943951023931953</pose>
+			<collision name="link51colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link51visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link52">
+			<pose>-1.1235430258211654 -8.211966394788071 5.735199947152935 0 -0.23561944901923448 2.0943951023931953</pose>
+			<collision name="link52colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link52visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link53">
+			<pose>-1.1235430258211654 -8.211966394788071 8.452799920729404 3.141592653589793 0.23561944901923448 2.0943951023931953</pose>
+			<collision name="link53colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link53visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link5_down">
+			<pose>-1.1235430258211654 -8.211966394788071 0.3 0 2.9059732045705586 2.0943951023931953</pose>
+			<collision name="link5_downcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link5_downvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link5_up">
+			<pose>-1.1235430258211654 -8.211966394788071 11.170399894305872 0 2.9059732045705586 2.0943951023931953</pose>
+			<collision name="link5_upcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link5_upvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link61">
+			<pose>7.673543025821165 3.1329663947880695 3.0175999735764676 3.141592653589793 0.23561944901923448 4.1887902047863905</pose>
+			<collision name="link61colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link61visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link62">
+			<pose>7.673543025821165 3.1329663947880695 5.735199947152935 0 -0.23561944901923448 4.1887902047863905</pose>
+			<collision name="link62colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link62visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link63">
+			<pose>7.673543025821165 3.1329663947880695 8.452799920729404 3.141592653589793 0.23561944901923448 4.1887902047863905</pose>
+			<collision name="link63colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link63visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/cl1.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link6_down">
+			<pose>7.673543025821165 3.1329663947880695 0.3 0 2.9059732045705586 4.1887902047863905</pose>
+			<collision name="link6_downcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link6_downvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_down.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="link6_up">
+			<pose>7.673543025821165 3.1329663947880695 11.170399894305872 0 2.9059732045705586 4.1887902047863905</pose>
+			<collision name="link6_upcolli">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link6_upvisu">
+				<geometry>
+					<mesh>
+						<uri>meshes/chengg_up.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="join0">
+			<pose>0 0 0.3 0 0 0</pose>
+			<collision name="join0colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="join0visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="join1">
+			<pose>0 0 3.0175999735764676 0 0 0</pose>
+			<collision name="join1colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="join1visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="join2">
+			<pose>0 0 5.735199947152935 0 0 0</pose>
+			<collision name="join2colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="join2visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="join3">
+			<pose>0 0 8.452799920729404 0 0 0</pose>
+			<collision name="join3colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="join3visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<link name="join4">
+			<pose>0 0 11.170399894305872 0 0 0</pose>
+			<collision name="join4colli">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="join4visu">
+				<geometry>
+					<mesh>
+						<uri>meshes/jiaol_gan.STL</uri>
+						<scale>0.1 0.1 0.1</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1 0 0 1</ambient>
+					<diffuse>1 0 0 1</diffuse>
+					<specular>1 0 0 1</specular>
+				</material>
+			</visual>
+		</link>
+		<joint name="revjoin11" type="revolute">
+			<pose relative_to="link1_down">0 0 0 0 0 0</pose>
+			<parent>join0</parent>
+			<child>link1_down</child>
+			<axis>
+				<xyz expressed_in="link1_down">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin21" type="revolute">
+			<pose relative_to="link2_down">0 0 0 0 0 0</pose>
+			<parent>join0</parent>
+			<child>link2_down</child>
+			<axis>
+				<xyz expressed_in="link2_down">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin31" type="revolute">
+			<pose relative_to="link3_down">0 0 0 0 0 0</pose>
+			<parent>join0</parent>
+			<child>link3_down</child>
+			<axis>
+				<xyz expressed_in="link3_down">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin41" type="revolute">
+			<pose relative_to="link4_down">0 0 0 0 0 0</pose>
+			<parent>join0</parent>
+			<child>link4_down</child>
+			<axis>
+				<xyz expressed_in="link4_down">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin51" type="revolute">
+			<pose relative_to="link5_down">0 0 0 0 0 0</pose>
+			<parent>join0</parent>
+			<child>link5_down</child>
+			<axis>
+				<xyz expressed_in="link5_down">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin61" type="revolute">
+			<pose relative_to="link6_down">0 0 0 0 0 0</pose>
+			<parent>join0</parent>
+			<child>link6_down</child>
+			<axis>
+				<xyz expressed_in="link6_down">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin15" type="revolute">
+			<pose relative_to="link1_up">0 0 0 0 0 0</pose>
+			<parent>join4</parent>
+			<child>link1_up</child>
+			<axis>
+				<xyz expressed_in="link1_up">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin25" type="revolute">
+			<pose relative_to="link2_up">0 0 0 0 0 0</pose>
+			<parent>join4</parent>
+			<child>link2_up</child>
+			<axis>
+				<xyz expressed_in="link2_up">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin35" type="revolute">
+			<pose relative_to="link3_up">0 0 0 0 0 0</pose>
+			<parent>join4</parent>
+			<child>link3_up</child>
+			<axis>
+				<xyz expressed_in="link3_up">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin45" type="revolute">
+			<pose relative_to="link4_up">0 0 0 0 0 0</pose>
+			<parent>join4</parent>
+			<child>link4_up</child>
+			<axis>
+				<xyz expressed_in="link4_up">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin55" type="revolute">
+			<pose relative_to="link5_up">0 0 0 0 0 0</pose>
+			<parent>join4</parent>
+			<child>link5_up</child>
+			<axis>
+				<xyz expressed_in="link5_up">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin65" type="revolute">
+			<pose relative_to="link6_up">0 0 0 0 0 0</pose>
+			<parent>join4</parent>
+			<child>link6_up</child>
+			<axis>
+				<xyz expressed_in="link6_up">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin12" type="revolute">
+			<pose relative_to="link11">0 0 0 0 0 0</pose>
+			<parent>join1</parent>
+			<child>link11</child>
+			<axis>
+				<xyz expressed_in="link11">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin22" type="revolute">
+			<pose relative_to="link21">0 0 0 0 0 0</pose>
+			<parent>join1</parent>
+			<child>link21</child>
+			<axis>
+				<xyz expressed_in="link21">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin32" type="revolute">
+			<pose relative_to="link31">0 0 0 0 0 0</pose>
+			<parent>join1</parent>
+			<child>link31</child>
+			<axis>
+				<xyz expressed_in="link31">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin42" type="revolute">
+			<pose relative_to="link41">0 0 0 0 0 0</pose>
+			<parent>join1</parent>
+			<child>link41</child>
+			<axis>
+				<xyz expressed_in="link41">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin52" type="revolute">
+			<pose relative_to="link51">0 0 0 0 0 0</pose>
+			<parent>join1</parent>
+			<child>link51</child>
+			<axis>
+				<xyz expressed_in="link51">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin62" type="revolute">
+			<pose relative_to="link61">0 0 0 0 0 0</pose>
+			<parent>join1</parent>
+			<child>link61</child>
+			<axis>
+				<xyz expressed_in="link61">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin13" type="revolute">
+			<pose relative_to="link12">0 0 0 0 0 0</pose>
+			<parent>join2</parent>
+			<child>link12</child>
+			<axis>
+				<xyz expressed_in="link12">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin23" type="revolute">
+			<pose relative_to="link22">0 0 0 0 0 0</pose>
+			<parent>join2</parent>
+			<child>link22</child>
+			<axis>
+				<xyz expressed_in="link22">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin33" type="revolute">
+			<pose relative_to="link32">0 0 0 0 0 0</pose>
+			<parent>join2</parent>
+			<child>link32</child>
+			<axis>
+				<xyz expressed_in="link32">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin43" type="revolute">
+			<pose relative_to="link42">0 0 0 0 0 0</pose>
+			<parent>join2</parent>
+			<child>link42</child>
+			<axis>
+				<xyz expressed_in="link42">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin53" type="revolute">
+			<pose relative_to="link52">0 0 0 0 0 0</pose>
+			<parent>join2</parent>
+			<child>link52</child>
+			<axis>
+				<xyz expressed_in="link52">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin63" type="revolute">
+			<pose relative_to="link62">0 0 0 0 0 0</pose>
+			<parent>join2</parent>
+			<child>link62</child>
+			<axis>
+				<xyz expressed_in="link62">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin14" type="revolute">
+			<pose relative_to="link13">0 0 0 0 0 0</pose>
+			<parent>join3</parent>
+			<child>link13</child>
+			<axis>
+				<xyz expressed_in="link13">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin24" type="revolute">
+			<pose relative_to="link23">0 0 0 0 0 0</pose>
+			<parent>join3</parent>
+			<child>link23</child>
+			<axis>
+				<xyz expressed_in="link23">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin34" type="revolute">
+			<pose relative_to="link33">0 0 0 0 0 0</pose>
+			<parent>join3</parent>
+			<child>link33</child>
+			<axis>
+				<xyz expressed_in="link33">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin44" type="revolute">
+			<pose relative_to="link43">0 0 0 0 0 0</pose>
+			<parent>join3</parent>
+			<child>link43</child>
+			<axis>
+				<xyz expressed_in="link43">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin54" type="revolute">
+			<pose relative_to="link53">0 0 0 0 0 0</pose>
+			<parent>join3</parent>
+			<child>link53</child>
+			<axis>
+				<xyz expressed_in="link53">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="revjoin64" type="revolute">
+			<pose relative_to="link63">0 0 0 0 0 0</pose>
+			<parent>join3</parent>
+			<child>link63</child>
+			<axis>
+				<xyz expressed_in="link63">0 1 0</xyz>
+				<limit>
+					<lower>3.14/18</lower>
+					<upper>1.5</upper>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="prijoin1" type="prismatic">
+			<parent>join0</parent>
+			<child>join1</child>
+			<axis>
+				<xyz>0 0 1</xyz>
+			</axis>
+		</joint>
+		<joint name="prijoin2" type="prismatic">
+			<parent>join0</parent>
+			<child>join2</child>
+			<axis>
+				<xyz>0 0 1</xyz>
+			</axis>
+		</joint>
+		<joint name="prijoin3" type="prismatic">
+			<parent>join0</parent>
+			<child>join3</child>
+			<axis>
+				<xyz>0 0 1</xyz>
+			</axis>
+		</joint>
+		<joint name="prijoin4" type="prismatic">
+			<parent>join0</parent>
+			<child>join4</child>
+			<axis>
+				<xyz>0 0 1</xyz>
+			</axis>
+		</joint>
+		<joint name="fixJ" type="fixed">
+			<parent>ground_plane</parent>
+			<child>join0</child>
+		</joint>
+	</model>
+</sdf>
